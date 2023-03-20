@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+body{
+    font-family: "Raleway", Arial, sans-serif;
+    
+}
+.first_section{
+    max-width: 1500px;
+    padding: 24px 16px;
+    padding-top: 27px;
+    padding-bottom: 73px;
+
+}
+
+.left{
+    border: none;
+    padding-bottom: 24px;
+    font-family: "Raleway", Arial, sans-serif;
+    float: left;
+    font-size: 24px;
+    padding: 5px 16px; 
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+
+.left:hover{
+    background-color: #ccc!important;
+}
+
+.right{
+    padding-bottom: 24px;
+    font-family: "Raleway", Arial, sans-serif;
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+    color: black;
+    border: none;
+    background-color: white;
+    padding: 5px 16px;
+}
+
+.right:hover{
+    background-color: #ccc!important;
+}
+
+.second_section{
+    display: flex;
+    width: 100%;
+}
+.pic_left{
+    /* margin-bottom: -8px; */
+    width: 49.99999%;
+    border-style: none;
+    vertical-align: middle;
+}
+
+.pic_right{
+    /* margin-bottom: -8px; */
+    width: 49.99999%;
+    border-style: none;
+    vertical-align: middle;
+}
+
+.third_section{
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: #f1f1f1;
+   
+}
+
+.center_content{
+    width: 60%;
+    margin: auto;
+}
+
+.heading{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.img1{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 300px;
+    height: auto;
+}
+
+.lorem{
+    /* text-align: center;
+    width: 60%;
+    margin: auto; */
+    margin: 15px 0px;
+    font-size: 15px;
+    font-family: "Raleway", Arial, sans-serif; ;
+}
+
+.third_section_para{
+    /* margin-top: 20px; */
+    font-size: 18px;
+    margin: 18px 0px;
+    color: #e91e63;
+}
+.form_section{
+    font-size: 15px;
+    font-family: "Raleway", Arial, sans-serif; ;
+    text-align: center;
+    /* margin-top: 16px;
+    margin-bottom: 16px; */
+}
+
+.form1{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    /* width: 100%; */
+    /* vertical-align: middle; */
+}
+
+.form2{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    /* width: 100%; */
+    /* vertical-align: middle; */
+}
+
+.form3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    /* width: 100%; */
+    /* vertical-align: middle; */
+}
+
+.div_1st{
+    /* margin: 10px; */
+    width: 100%;
+    padding: 8px; 
+    border: 1px solid #ccc;
+    font: inherit;
+}
+
+.div_2nd{
+    /* margin: 10px; */
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font: inherit;
+}
+
+.div_3rd{
+    /* margin: 10px; */
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font: inherit;
+}
+
+.div_4th{
+    /* margin-top: 10px; */
+    border: none;
+    padding: 8px 16px;
+    width: 100%;
+    color: #fff;
+    background-color: #616161;
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 15px;
+}
+
+.ending{
+    margin: 15px 0px;
+    /* padding: 8px 16px; */
+}
+
+
+@media only screen and (max-width: 600px) {
+    .second_section{
+        display: block;
+    }
+    .pic_left{
+        width: 100%;
+    }
+    .pic_right{
+        width: 100%;
+    }
+    .img1{
+        max-width: 100%;
+    }
+}
+    
