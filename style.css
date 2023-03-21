@@ -178,6 +178,7 @@ body{
 .div_4th:hover{
     background-color:#ccc!important;
     color: black;
+    cursor: pointer;
 }
 
 .ending{
