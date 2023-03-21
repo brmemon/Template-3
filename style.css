@@ -4,26 +4,27 @@
     box-sizing: border-box;
     line-height: 1.5;
 }
-
+a{
+    text-decoration:none ;
+}
 body{
     font-family: "Raleway", Arial, sans-serif;
     
 }
 .first_section{
     max-width: 1500px;
-    padding: 24px 16px;
-    padding-top: 27px;
-    padding-bottom: 73px;
-
+}
+.content{
+    padding: 24px 16px 76px 16px
 }
 
 .left{
     border: none;
-    padding-bottom: 24px;
+    /* padding-bottom: 24px; */
     font-family: "Raleway", Arial, sans-serif;
     float: left;
     font-size: 24px;
-    padding: 5px 16px; 
+    padding: 8px 16px; 
     cursor: pointer;
     color: black;
     background-color: white;
@@ -34,7 +35,7 @@ body{
 }
 
 .right{
-    padding-bottom: 24px;
+    /* padding-bottom: 24px; */
     font-family: "Raleway", Arial, sans-serif;
     float: right;
     font-size: 24px;
@@ -42,7 +43,7 @@ body{
     color: black;
     border: none;
     background-color: white;
-    padding: 5px 16px;
+    padding: 8px 16px;
 }
 
 .right:hover{
