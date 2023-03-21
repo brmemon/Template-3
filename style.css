@@ -13,6 +13,7 @@ body{
 }
 .first_section{
     max-width: 1500px;
+    margin: auto;
 }
 .content{
     padding: 24px 16px 76px 16px
