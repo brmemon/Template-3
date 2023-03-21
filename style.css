@@ -180,6 +180,15 @@ body{
     /* padding: 8px 16px; */
 }
 
+.color{
+    color: black;
+    /* background-color: greenyellow; */
+    text-decoration: underline;
+}
+
+.color:hover{
+    color: green!important;
+}
 
 @media only screen and (max-width: 600px) {
     .second_section{
